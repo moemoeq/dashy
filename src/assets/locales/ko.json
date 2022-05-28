@@ -1,0 +1,308 @@
+{
+  "home": {
+    "no-results": "검색결과 없음",
+    "no-data": "데이터가 구성되지 않았습니다",
+    "no-items-section": "표시할 항목이 아직 없습니다"
+  },
+  "search": {
+    "search-label": "검색",
+    "search-placeholder": "Start typing to filter",
+    "clear-search-tooltip": "Clear Search",
+    "enter-to-search-web": "웹으로 검색하려면 Enter 키를 누릅니다"
+  },
+  "login": {
+    "title": "Dashy",
+    "username-label": "사용자 이름",
+    "password-label": "암호",
+    "login-button": "로그인",
+    "remember-me-label": "Remember me for",
+    "remember-me-never": "Never",
+    "remember-me-hour": "4 시간",
+    "remember-me-day": "1 일",
+    "remember-me-week": "1 주",
+    "remember-me-long-time": "A long time",
+    "error-missing-username": "Missing Username",
+    "error-missing-password": "Missing Password",
+    "error-incorrect-username": "User not found",
+    "error-incorrect-password": "Incorrect Password",
+    "success-message": "Logging in...",
+    "logout-message": "Logged Out",
+    "already-logged-in-title": "Already Logged In",
+    "already-logged-in-text": "You're logged in as",
+    "proceed-to-dashboard": "Proceed to Dashboard",
+    "log-out-button": "로그아웃",
+    "proceed-guest-button": "게스트로 진행"
+  },
+  "config": {
+    "main-tab": "메인 메뉴",
+    "view-config-tab": "설정 보기",
+    "edit-config-tab": "설정 수정",
+    "custom-css-tab": "사용자 스타일",
+    "heading": "설정 항목",
+    "download-config-button": "설정 조회 / 내보내기",
+    "edit-config-button": "설정 수정",
+    "edit-css-button": "사용자 CSS 편집",
+    "cloud-sync-button": "클라우드 동기화 활성화",
+    "edit-cloud-sync-button": "클라우드 동기화 수정",
+    "rebuild-app-button": "어플리케이션 리빌드",
+    "change-language-button": "어플리케이션 언어 변경",
+    "reset-settings-button": "로컬 설정 초기화",
+    "app-info-button": "앱 정보",
+    "backup-note": "It is recommended to make a backup of your configuration before making changes.",
+    "reset-config-msg-l1": "This will remove all user settings from local storage, but won't effect your 'conf.yml' file.",
+    "reset-config-msg-l2": "You should first backup any changes you've made locally, if you want to use them in the future.",
+    "reset-config-msg-l3": "Are you sure you want to proceed?",
+    "data-cleared-msg": "Data cleared successfully",
+    "actions-label": "Actions",
+    "copy-config-label": "설정 복사",
+    "data-copied-msg": "설정이 클립보드에 복사되었습니다",
+    "reset-config-label": "설정 초기화",
+    "css-save-btn": "변경사항 저장",
+    "css-note-label": "Note",
+    "css-note-l1": "You will need to refresh the page for your changes to take effect.",
+    "css-note-l2": "Styles overrides are only stored locally, so it is recommended to make a copy of your CSS.",
+    "css-note-l3": "To remove all custom styles, delete the contents and hit Save Changes"
+  },
+  "alternate-views": {
+    "alternate-view-heading": "보기 전환",
+    "default": "기본",
+    "workspace": "워크스페이스",
+    "minimal": "최소"
+  },
+  "settings": {
+    "theme-label": "테마",
+    "layout-label": "레이아웃",
+    "layout-auto": "자동",
+    "layout-horizontal": "가로",
+    "layout-vertical": "세로",
+    "item-size-label": "아이템 크기",
+    "item-size-small": "작게",
+    "item-size-medium": "중간",
+    "item-size-large": "크게",
+    "config-launcher-label": "설정",
+    "config-launcher-tooltip": "설정 변경",
+    "sign-out-tooltip": "로그아웃",
+    "sign-in-tooltip": "로그인",
+    "sign-in-welcome": "환영합니다 {username}!"
+  },
+  "updates": {
+    "app-version-note": "Dashy 버전",
+    "up-to-date": "최신",
+    "out-of-date": "업데이트 가능",
+    "unsupported-version-l1": "지원되지 않는 Dashy를 사용하고 있습니다.",
+    "unsupported-version-l2": "최상의 경험과 최신 보안패치를 위해서 업데이트를 다음 버전으로 해주세요 버전:"
+  },
+  "language-switcher": {
+    "title": "어플리케이션 언어 변경",
+    "dropdown-label": "언어를 선택하세요",
+    "save-button": "저장",
+    "success-msg": "언어 변경:"
+  },
+  "theme-maker": {
+    "title": "테마 설정",
+    "export-button": "사용자 변수 내보내기",
+    "reset-button": "스타일 초기화하기 | 대상:",
+    "show-all-button": "모든 변수 보기",
+    "change-fonts-button": "글꼴 변경",
+    "save-button": "저장",
+    "cancel-button": "취소",
+    "saved-toast": "테마 {theme}가 성공적으로 갱신되었습니다",
+    "copied-toast": "테마 {theme}의 데이터가 클립보드에 복사되었습니다",
+    "reset-toast": "테마 {theme}의 사용자 색상이 초기화 되었습니다"
+  },
+  "config-editor": {
+    "save-location-label": "Save Location",
+    "location-local-label": "Apply Locally",
+    "location-disk-label": "Write Changes to Config File",
+    "save-button": "Save Changes",
+    "preview-button": "Preview Changes",
+    "valid-label": "Config is Valid",
+    "status-success-msg": "Task Complete",
+    "status-fail-msg": "Task Failed",
+    "success-msg-disk": "Config file written to disk successfully",
+    "success-msg-local": "Local changes saved successfully",
+    "success-note-l1": "The app should rebuild automatically.",
+    "success-note-l2": "This may take up to a minute.",
+    "success-note-l3": "You will need to refresh the page for changes to take effect.",
+    "error-msg-save-mode": "Please select a Save Mode: Local or File",
+    "error-msg-cannot-save": "An error occurred saving config",
+    "error-msg-bad-json": "Error in JSON, possibly malformed",
+    "warning-msg-validation": "Validation Warning",
+    "not-admin-note": "You cannot write changed to disk, because you are not logged in as an admin"
+  },
+  "app-rebuild": {
+    "title": "어플리케이션 리빌드",
+    "rebuild-note-l1": "A rebuild is required for changes written to the conf.yml file to take effect.",
+    "rebuild-note-l2": "This should happen automatically, but if it hasn't, you can manually trigger it here.",
+    "rebuild-note-l3": "This is not required for modifications stored locally.",
+    "rebuild-button": "빌드 시작",
+    "rebuilding-status-1": "빌드중...",
+    "rebuilding-status-2": "몇 분 정도 걸릴 수 있습니다",
+    "error-permission": "You don't have permission to trigger this action",
+    "success-msg": "빌드가 성공적으로 완료되었습니다",
+    "fail-msg": "빌드 작업이 실패하였습니다",
+    "reload-note": "변경된 사항을 적용하려면 페이지를 다시 불러와야 합니다",
+    "reload-button": "페이지 다시 불러오기"
+  },
+  "cloud-sync": {
+    "title": "클라우드 백업 및 복원",
+    "intro-l1": "클라우드 백업 및 복원은 선택적 기능으로 인터넷에 당신의 설정을 업로드하여 다른 장치나 인스턴스의 Dashy에서 복원할 수 있습니다.",
+    "intro-l2": "모든 데이터는 당신의 비밀번호를 키(Key)로 사용하여 AES로 완전히 종단간(end-to-end) 암호화됩니다.",
+    "intro-l3": "더 많은 정보는 다음을 참고하세요:",
+    "backup-title-setup": "백업 설정",
+    "backup-title-update": "백업 갱신",
+    "password-label-setup": "비밀번호 설정",
+    "password-label-update": "비밀번호를 입력해주세요",
+    "backup-button-setup": "백업",
+    "backup-button-update": "백업 갱신",
+    "backup-id-label": "당신의 백업 ID",
+    "backup-id-note": "백업을 복원하는데 나중에 필요합니다. 그러니 비밀번호와 함께 안전한 곳에 보관하세요",
+    "restore-title": "백업 복원",
+    "restore-id-label": "복원 ID",
+    "restore-password-label": "비밀번호",
+    "restore-button": "복원",
+    "backup-missing-password": "비밀번호가 없습니다",
+    "backup-error-unknown": "요청을 처리하지 못합니다",
+    "backup-error-password": "비밀번호가 올바르지 않습니다. 비밀번호를 확인하세요.",
+    "backup-success-msg": "성공적으로 완료되었습니다",
+    "restore-success-msg": "설정이 성공적으로 복원되었습니다"
+  },
+  "menu": {
+    "open-section-title": "Open In",
+    "sametab": "Current Tab",
+    "newtab": "New Tab",
+    "modal": "Pop-Up Modal",
+    "workspace": "Workspace View",
+    "options-section-title": "Options",
+    "edit-item": "Edit",
+    "move-item": "Copy or Move",
+    "remove-item": "Remove"
+  },
+  "context-menus": {
+    "item": {
+      "open-section-title": "Open In",
+      "sametab": "Current Tab",
+      "newtab": "New Tab",
+      "modal": "Pop-Up Modal",
+      "workspace": "Workspace View",
+      "clipboard": "클립보드에 복사",
+      "options-section-title": "Options",
+      "edit-item": "편집",
+      "move-item": "복사 또는 이동",
+      "remove-item": "Remove",
+      "copied-toast": "URL이 클립보드에 복사되었습니다"
+    },
+    "section": {
+      "open-section": "섹션 열기",
+      "edit-section": "수정",
+      "expand-collapse": "Expand / Collapse",
+      "move-section": "Move To",
+      "remove-section": "Remove"
+    }
+  },
+  "interactive-editor": {
+    "menu": {
+      "start-editing-tooltip": "Enter the Interactive Editor",
+      "edit-site-data-subheading": "Edit Site Data",
+      "edit-page-info-btn": "Edit Page Info",
+      "edit-page-info-tooltip": "App title, description, nav links, footer text, etc.",
+      "edit-app-config-btn": "Edit App Config",
+      "edit-app-config-tooltip": "All other app configuration options",
+      "edit-pages-btn": "Edit Pages",
+      "edit-pages-tooltip": "Add or remove additional views",
+      "config-save-methods-subheading": "Config Saving Options",
+      "save-locally-btn": "Save Locally",
+      "save-locally-tooltip": "Save config locally, to browser storage. This will not affect your config file, but changes will only be saved on this device",
+      "save-disk-btn": "Save to Disk",
+      "save-disk-tooltip": "Save config to the conf.yml file on disk. This will backup, and then over-write your existing config",
+      "export-config-btn": "Export Config",
+      "export-config-tooltip": "View and export new config, either to a file, or to clipboard",
+      "cloud-backup-btn": "Backup to Cloud",
+      "cloud-backup-tooltip": "Save encrypted backup of configuration to cloud",
+      "edit-raw-config-btn": "Edit Raw Config",
+      "edit-raw-config-tooltip": "View and modify raw config via JSON editor",
+      "cancel-changes-btn": "Cancel Edit",
+      "cancel-changes-tooltip": "Reset current modifications, and exit Edit Mode. This will not affect your saved config",
+      "edit-mode-name": "Edit Mode",
+      "edit-mode-subtitle": "You are in Edit Mode",
+      "edit-mode-description": "This means you can make modifications to your config, and preview the results, but until you save, none of your changes will be preserved.",
+      "save-stage-btn": "Save",
+      "cancel-stage-btn": "Cancel",
+      "save-locally-warning": "If you proceed, changes will be saved only in your browser. You should export a copy of your config for use on other machines. Would you like to continue?"
+    },
+    "edit-item": {
+      "missing-title-err": "An item title is required"
+    },
+    "edit-section": {
+      "edit-section-title": "Edit Section",
+      "add-section-title": "Add New Section",
+      "edit-tooltip": "Click to Edit, or right-click for more options",
+      "remove-confirm": "Are you sure you want to remove this section? This action can be undone later."
+    },
+    "edit-app-config": {
+      "warning-msg-title": "Proceed with Caution",
+      "warning-msg-l1": "The following options are for advanced app configuration.",
+      "warning-msg-l2": "If you are unsure about any of the fields, please reference the",
+      "warning-msg-docs": "documentation",
+      "warning-msg-l3": "to avoid unintended consequences."
+    },
+    "export": {
+      "export-title": "Export Config",
+      "copy-clipboard-btn": "Copy to Clipboard",
+      "copy-clipboard-tooltip": "Copy all app config to system clipboard, in YAML format",
+      "download-file-btn": "Download as File",
+      "download-file-tooltip": "Download all app config to your device, in a YAML file",
+      "view-title": "View Config"
+    }
+  },
+  "widgets": {
+    "general": {
+      "loading": "불러오는중...",
+      "show-more": "Expand Details",
+      "show-less": "Show Less",
+      "open-link": "Continue Reading"
+    },
+    "pi-hole": {
+      "status-heading": "상태"
+    },
+    "stat-ping": {
+      "up": "Online",
+      "down": "Offline"
+    },
+    "net-data": {
+      "cpu-chart-title": "CPU History",
+      "mem-chart-title": "Memory Usage",
+      "mem-breakdown-title": "Memory Breakdown",
+      "load-chart-title": "System Load"
+    },
+    "glances": {
+      "disk-space-free": "여유",
+      "disk-space-used": "사용",
+      "disk-mount-point": "마운트 포인트",
+      "disk-file-system": "파일 시스템",
+      "disk-io-read": "읽기",
+      "disk-io-write": "쓰기",
+      "system-load-desc": "Number of processes waiting in the run-queue, averaged across all cores"
+    },
+    "system-info": {
+      "uptime": "업타임"
+    },
+    "flight-data": {
+      "arrivals": "도착",
+      "departures": "출발"
+    },
+    "tfl-status": {
+      "good-service-all": "Good Service on all Lines",
+      "good-service-rest": "Good Service on all other Lines"
+    },
+    "synology-download": {
+      "download": "Download",
+      "upload": "Upload",
+      "downloaded": "Downloaded",
+      "uploaded": "Uploaded",
+      "remaining": "Remaining",
+      "up": "Up",
+      "down": "Down"
+    }
+  }
+}
