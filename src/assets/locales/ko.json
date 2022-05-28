@@ -15,21 +15,21 @@
     "username-label": "사용자 이름",
     "password-label": "암호",
     "login-button": "로그인",
-    "remember-me-label": "Remember me for",
+    "remember-me-label": "로그인 기억",
     "remember-me-never": "Never",
     "remember-me-hour": "4 시간",
     "remember-me-day": "1 일",
     "remember-me-week": "1 주",
     "remember-me-long-time": "A long time",
-    "error-missing-username": "Missing Username",
-    "error-missing-password": "Missing Password",
-    "error-incorrect-username": "User not found",
-    "error-incorrect-password": "Incorrect Password",
+    "error-missing-username": "사용자 이름 누락",
+    "error-missing-password": "비밀번호 누락",
+    "error-incorrect-username": "사용자를 찾을 수 없음",
+    "error-incorrect-password": "잘못된 비밀번호",
     "success-message": "Logging in...",
     "logout-message": "Logged Out",
     "already-logged-in-title": "이미 로그인되었습니다.",
     "already-logged-in-text": "You're logged in as",
-    "proceed-to-dashboard": "Proceed to Dashboard",
+    "proceed-to-dashboard": "대시보드로 이동",
     "log-out-button": "로그아웃",
     "proceed-guest-button": "게스트로 진행"
   },
@@ -48,11 +48,11 @@
     "change-language-button": "어플리케이션 언어 변경",
     "reset-settings-button": "로컬 설정 초기화",
     "app-info-button": "앱 정보",
-    "backup-note": "It is recommended to make a backup of your configuration before making changes.",
+    "backup-note": "변경하기 전에 구성을 백업하는 것이 좋습니다.",
     "reset-config-msg-l1": "This will remove all user settings from local storage, but won't effect your 'conf.yml' file.",
     "reset-config-msg-l2": "You should first backup any changes you've made locally, if you want to use them in the future.",
-    "reset-config-msg-l3": "Are you sure you want to proceed?",
-    "data-cleared-msg": "Data cleared successfully",
+    "reset-config-msg-l3": "계속 진행하시겠습니까?",
+    "data-cleared-msg": "데이터가 성공적으로 삭제됨",
     "actions-label": "액션",
     "copy-config-label": "설정 복사",
     "data-copied-msg": "설정이 클립보드에 복사되었습니다",
@@ -83,7 +83,7 @@
     "config-launcher-tooltip": "설정 변경",
     "sign-out-tooltip": "로그아웃",
     "sign-in-tooltip": "로그인",
-    "sign-in-welcome": "환영합니다 {username}!"
+    "sign-in-welcome": "{username}님 환영합니다!"
   },
   "updates": {
     "app-version-note": "Dashy 버전",
@@ -113,22 +113,22 @@
   "config-editor": {
     "save-location-label": "저장 위치",
     "location-local-label": "적용 Locally",
-    "location-disk-label": "Write Changes to Config File",
+    "location-disk-label": "변경사항을 설정파일에 작성",
     "save-button": "변경 저장",
     "preview-button": "변경 미리보기",
     "valid-label": "설정이 유효합니다",
     "status-success-msg": "작업 완료",
     "status-fail-msg": "작업 실패",
-    "success-msg-disk": "설정 파일이 디스크에 성공적으로 작성되었습니다.",
-    "success-msg-local": "Local changes saved successfully",
+    "success-msg-disk": "설정 파일이 디스크에 성공적으로 작성되었습니다",
+    "success-msg-local": "로컬 변경 내용이 성공적으로 저장되었습니다",
     "success-note-l1": "앱이 자동으로 재구성됩니다.",
     "success-note-l2": "이 작업은1분 정도 걸릴 수 있습니다.",
-    "success-note-l3": "변경 내용을 적용하려면 페이지를 새로 고쳐야 합니다.",
+    "success-note-l3": "변경 내용을 적용하려면 페이지를 새로 고쳐야 합니다",
     "error-msg-save-mode": "로컬 혹은 파일 저장 모드를 선택해주세요",
     "error-msg-cannot-save": "설정을 저장중에 문제가 발생했습니다",
     "error-msg-bad-json": "JSON에러, 잘못된 형식의 가능성이 있습니다",
     "warning-msg-validation": "유효성 검사 경고",
-    "not-admin-note": "You cannot write changed to disk, because you are not logged in as an admin"
+    "not-admin-note": "관리자로 로그인하지 않았기 때문에 디스크에 변경된 내용을 작성할 수 없습니다"
   },
   "app-rebuild": {
     "title": "어플리케이션 리빌드",
@@ -168,7 +168,7 @@
     "restore-success-msg": "설정이 성공적으로 복원되었습니다"
   },
   "menu": {
-    "open-section-title": "Open In",
+    "open-section-title": "열기",
     "sametab": "현재 탭",
     "newtab": "새 탭",
     "modal": "팝업 모달",
@@ -180,7 +180,7 @@
   },
   "context-menus": {
     "item": {
-      "open-section-title": "Open In",
+      "open-section-title": "열기",
       "sametab": "현재탭",
       "newtab": "새 탭",
       "modal": "팝업 모달",
@@ -206,21 +206,21 @@
       "edit-site-data-subheading": "사이트 데이터 수정",
       "edit-page-info-btn": "페이지 정보 수정",
       "edit-page-info-tooltip": "App title, description, nav links, footer text, etc.",
-      "edit-app-config-btn": "수정 App Config",
-      "edit-app-config-tooltip": "All other app configuration options",
-      "edit-pages-btn": "수정 Pages",
+      "edit-app-config-btn": "앱 설정 수정",
+      "edit-app-config-tooltip": "다른 모든 앱 설정 옵션",
+      "edit-pages-btn": "페이지 수정",
       "edit-pages-tooltip": "Add or remove additional views",
-      "config-save-methods-subheading": "Config Saving Options",
+      "config-save-methods-subheading": "설정 저장 옵션",
       "save-locally-btn": "Save Locally",
       "save-locally-tooltip": "Save config locally, to browser storage. This will not affect your config file, but changes will only be saved on this device",
       "save-disk-btn": "디스크에 저장",
       "save-disk-tooltip": "Save config to the conf.yml file on disk. This will backup, and then over-write your existing config",
       "export-config-btn": "설정 내보내기",
-      "export-config-tooltip": "View and export new config, either to a file, or to clipboard",
+      "export-config-tooltip": "파일 또는 클립보드로 새 구성 조회 및 내보내기",
       "cloud-backup-btn": "클라우드에 백업",
-      "cloud-backup-tooltip": "Save encrypted backup of configuration to cloud",
+      "cloud-backup-tooltip": "암호화된 설정 백업을 클라우드에 저장",
       "edit-raw-config-btn": "Raw 설정 수정",
-      "edit-raw-config-tooltip": "View and modify raw config via JSON editor",
+      "edit-raw-config-tooltip": "설정을 JSON 편집기에서 조회 및 수정",
       "cancel-changes-btn": "수정 취소",
       "cancel-changes-tooltip": "Reset current modifications, and exit 수정 모드. This will not affect your saved config",
       "edit-mode-name": "수정 모드",
@@ -228,7 +228,7 @@
       "edit-mode-description": "This means you can make modifications to your config, and preview the results, but until you save, none of your changes will be preserved.",
       "save-stage-btn": "저장",
       "cancel-stage-btn": "취소",
-      "save-locally-warning": "If you proceed, changes will be saved only in your browser. You should export a copy of your config for use on other machines. Would you like to continue?"
+      "save-locally-warning": "계속 진행하면 변경 내용이 당신의 브라우저에만 저장됩니다. 다른 기기에서 사용할 수 있도록 설정 사본을 내보내야 합니다. 계속하시겠습니까?"
     },
     "edit-item": {
       "missing-title-err": "항목의 제목은 필수입니다."
@@ -240,11 +240,11 @@
       "remove-confirm": "Are you sure you want to remove this section? This action can be undone later."
     },
     "edit-app-config": {
-      "warning-msg-title": "Proceed with Caution",
-      "warning-msg-l1": "The following options are for advanced app configuration.",
-      "warning-msg-l2": "If you are unsure about any of the fields, please reference the",
+      "warning-msg-title": "주의해주세요",
+      "warning-msg-l1": "다음 옵션은 고급 앱 구성을 위한 옵션입니다.",
+      "warning-msg-l2": "필드에 대해서 명확하게 알지 못하는 경우 다음을 참조해주세요",
       "warning-msg-docs": "문서",
-      "warning-msg-l3": "to avoid unintended consequences."
+      "warning-msg-l3": "예기치 않은 결과를 피하기 위해서"
     },
     "export": {
       "export-title": "설정 내보내기",
