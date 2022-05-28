@@ -7,7 +7,7 @@
   "search": {
     "search-label": "검색",
     "search-placeholder": "Start typing to filter",
-    "clear-search-tooltip": "Clear Search",
+    "clear-search-tooltip": "검색 초기화",
     "enter-to-search-web": "웹으로 검색하려면 Enter 키를 누릅니다"
   },
   "login": {
@@ -27,7 +27,7 @@
     "error-incorrect-password": "Incorrect Password",
     "success-message": "Logging in...",
     "logout-message": "Logged Out",
-    "already-logged-in-title": "Already Logged In",
+    "already-logged-in-title": "이미 로그인되었습니다.",
     "already-logged-in-text": "You're logged in as",
     "proceed-to-dashboard": "Proceed to Dashboard",
     "log-out-button": "로그아웃",
@@ -41,7 +41,7 @@
     "heading": "설정 항목",
     "download-config-button": "설정 조회 / 내보내기",
     "edit-config-button": "설정 수정",
-    "edit-css-button": "사용자 CSS 편집",
+    "edit-css-button": "사용자 CSS 수정",
     "cloud-sync-button": "클라우드 동기화 활성화",
     "edit-cloud-sync-button": "클라우드 동기화 수정",
     "rebuild-app-button": "어플리케이션 리빌드",
@@ -53,13 +53,13 @@
     "reset-config-msg-l2": "You should first backup any changes you've made locally, if you want to use them in the future.",
     "reset-config-msg-l3": "Are you sure you want to proceed?",
     "data-cleared-msg": "Data cleared successfully",
-    "actions-label": "Actions",
+    "actions-label": "액션",
     "copy-config-label": "설정 복사",
     "data-copied-msg": "설정이 클립보드에 복사되었습니다",
     "reset-config-label": "설정 초기화",
     "css-save-btn": "변경사항 저장",
-    "css-note-label": "Note",
-    "css-note-l1": "You will need to refresh the page for your changes to take effect.",
+    "css-note-label": "노트",
+    "css-note-l1": "변경된 사항을 적용하려면 페이지를 다시 불러와야 합니다.",
     "css-note-l2": "Styles overrides are only stored locally, so it is recommended to make a copy of your CSS.",
     "css-note-l3": "To remove all custom styles, delete the contents and hit Save Changes"
   },
@@ -111,23 +111,23 @@
     "reset-toast": "테마 {theme}의 사용자 색상이 초기화 되었습니다"
   },
   "config-editor": {
-    "save-location-label": "Save Location",
-    "location-local-label": "Apply Locally",
+    "save-location-label": "저장 위치",
+    "location-local-label": "적용 Locally",
     "location-disk-label": "Write Changes to Config File",
-    "save-button": "Save Changes",
-    "preview-button": "Preview Changes",
-    "valid-label": "Config is Valid",
-    "status-success-msg": "Task Complete",
-    "status-fail-msg": "Task Failed",
-    "success-msg-disk": "Config file written to disk successfully",
+    "save-button": "변경 저장",
+    "preview-button": "변경 미리보기",
+    "valid-label": "설정이 유효합니다",
+    "status-success-msg": "작업 완료",
+    "status-fail-msg": "작업 실패",
+    "success-msg-disk": "설정 파일이 디스크에 성공적으로 작성되었습니다.",
     "success-msg-local": "Local changes saved successfully",
-    "success-note-l1": "The app should rebuild automatically.",
-    "success-note-l2": "This may take up to a minute.",
-    "success-note-l3": "You will need to refresh the page for changes to take effect.",
-    "error-msg-save-mode": "Please select a Save Mode: Local or File",
-    "error-msg-cannot-save": "An error occurred saving config",
-    "error-msg-bad-json": "Error in JSON, possibly malformed",
-    "warning-msg-validation": "Validation Warning",
+    "success-note-l1": "앱이 자동으로 재구성됩니다.",
+    "success-note-l2": "이 작업은1분 정도 걸릴 수 있습니다.",
+    "success-note-l3": "변경 내용을 적용하려면 페이지를 새로 고쳐야 합니다.",
+    "error-msg-save-mode": "로컬 혹은 파일 저장 모드를 선택해주세요",
+    "error-msg-cannot-save": "설정을 저장중에 문제가 발생했습니다",
+    "error-msg-bad-json": "JSON에러, 잘못된 형식의 가능성이 있습니다",
+    "warning-msg-validation": "유효성 검사 경고",
     "not-admin-note": "You cannot write changed to disk, because you are not logged in as an admin"
   },
   "app-rebuild": {
@@ -138,7 +138,7 @@
     "rebuild-button": "빌드 시작",
     "rebuilding-status-1": "빌드중...",
     "rebuilding-status-2": "몇 분 정도 걸릴 수 있습니다",
-    "error-permission": "You don't have permission to trigger this action",
+    "error-permission": "이 작업을 사용 수 있는 권한이 없습니다",
     "success-msg": "빌드가 성공적으로 완료되었습니다",
     "fail-msg": "빌드 작업이 실패하였습니다",
     "reload-note": "변경된 사항을 적용하려면 페이지를 다시 불러와야 합니다",
@@ -169,90 +169,90 @@
   },
   "menu": {
     "open-section-title": "Open In",
-    "sametab": "Current Tab",
-    "newtab": "New Tab",
-    "modal": "Pop-Up Modal",
-    "workspace": "Workspace View",
-    "options-section-title": "Options",
-    "edit-item": "Edit",
-    "move-item": "Copy or Move",
-    "remove-item": "Remove"
+    "sametab": "현재 탭",
+    "newtab": "새 탭",
+    "modal": "팝업 모달",
+    "workspace": "작업영역 뷰",
+    "options-section-title": "옵션",
+    "edit-item": "수정",
+    "move-item": "복사 또는 이동",
+    "remove-item": "삭제"
   },
   "context-menus": {
     "item": {
       "open-section-title": "Open In",
-      "sametab": "Current Tab",
-      "newtab": "New Tab",
-      "modal": "Pop-Up Modal",
-      "workspace": "Workspace View",
+      "sametab": "현재탭",
+      "newtab": "새 탭",
+      "modal": "팝업 모달",
+      "workspace": "작업영역 뷰",
       "clipboard": "클립보드에 복사",
-      "options-section-title": "Options",
-      "edit-item": "편집",
+      "options-section-title": "옵션",
+      "edit-item": "수정",
       "move-item": "복사 또는 이동",
-      "remove-item": "Remove",
+      "remove-item": "삭제",
       "copied-toast": "URL이 클립보드에 복사되었습니다"
     },
     "section": {
       "open-section": "섹션 열기",
       "edit-section": "수정",
-      "expand-collapse": "Expand / Collapse",
-      "move-section": "Move To",
-      "remove-section": "Remove"
+      "expand-collapse": "확장 / 축소",
+      "move-section": "이동",
+      "remove-section": "삭제"
     }
   },
   "interactive-editor": {
     "menu": {
-      "start-editing-tooltip": "Enter the Interactive Editor",
-      "edit-site-data-subheading": "Edit Site Data",
-      "edit-page-info-btn": "Edit Page Info",
+      "start-editing-tooltip": "Enter the Interactive 수정or",
+      "edit-site-data-subheading": "사이트 데이터 수정",
+      "edit-page-info-btn": "페이지 정보 수정",
       "edit-page-info-tooltip": "App title, description, nav links, footer text, etc.",
-      "edit-app-config-btn": "Edit App Config",
+      "edit-app-config-btn": "수정 App Config",
       "edit-app-config-tooltip": "All other app configuration options",
-      "edit-pages-btn": "Edit Pages",
+      "edit-pages-btn": "수정 Pages",
       "edit-pages-tooltip": "Add or remove additional views",
       "config-save-methods-subheading": "Config Saving Options",
       "save-locally-btn": "Save Locally",
       "save-locally-tooltip": "Save config locally, to browser storage. This will not affect your config file, but changes will only be saved on this device",
-      "save-disk-btn": "Save to Disk",
+      "save-disk-btn": "디스크에 저장",
       "save-disk-tooltip": "Save config to the conf.yml file on disk. This will backup, and then over-write your existing config",
-      "export-config-btn": "Export Config",
+      "export-config-btn": "설정 내보내기",
       "export-config-tooltip": "View and export new config, either to a file, or to clipboard",
-      "cloud-backup-btn": "Backup to Cloud",
+      "cloud-backup-btn": "클라우드에 백업",
       "cloud-backup-tooltip": "Save encrypted backup of configuration to cloud",
-      "edit-raw-config-btn": "Edit Raw Config",
+      "edit-raw-config-btn": "Raw 설정 수정",
       "edit-raw-config-tooltip": "View and modify raw config via JSON editor",
-      "cancel-changes-btn": "Cancel Edit",
-      "cancel-changes-tooltip": "Reset current modifications, and exit Edit Mode. This will not affect your saved config",
-      "edit-mode-name": "Edit Mode",
-      "edit-mode-subtitle": "You are in Edit Mode",
+      "cancel-changes-btn": "수정 취소",
+      "cancel-changes-tooltip": "Reset current modifications, and exit 수정 모드. This will not affect your saved config",
+      "edit-mode-name": "수정 모드",
+      "edit-mode-subtitle": "수정 모드입니다",
       "edit-mode-description": "This means you can make modifications to your config, and preview the results, but until you save, none of your changes will be preserved.",
-      "save-stage-btn": "Save",
-      "cancel-stage-btn": "Cancel",
+      "save-stage-btn": "저장",
+      "cancel-stage-btn": "취소",
       "save-locally-warning": "If you proceed, changes will be saved only in your browser. You should export a copy of your config for use on other machines. Would you like to continue?"
     },
     "edit-item": {
-      "missing-title-err": "An item title is required"
+      "missing-title-err": "항목의 제목은 필수입니다."
     },
     "edit-section": {
-      "edit-section-title": "Edit Section",
-      "add-section-title": "Add New Section",
-      "edit-tooltip": "Click to Edit, or right-click for more options",
+      "edit-section-title": "섹션 수정",
+      "add-section-title": "새 섹션 추가",
+      "edit-tooltip": "Click to 수정, or right-click for more options",
       "remove-confirm": "Are you sure you want to remove this section? This action can be undone later."
     },
     "edit-app-config": {
       "warning-msg-title": "Proceed with Caution",
       "warning-msg-l1": "The following options are for advanced app configuration.",
       "warning-msg-l2": "If you are unsure about any of the fields, please reference the",
-      "warning-msg-docs": "documentation",
+      "warning-msg-docs": "문서",
       "warning-msg-l3": "to avoid unintended consequences."
     },
     "export": {
-      "export-title": "Export Config",
-      "copy-clipboard-btn": "Copy to Clipboard",
-      "copy-clipboard-tooltip": "Copy all app config to system clipboard, in YAML format",
-      "download-file-btn": "Download as File",
-      "download-file-tooltip": "Download all app config to your device, in a YAML file",
-      "view-title": "View Config"
+      "export-title": "설정 내보내기",
+      "copy-clipboard-btn": "클립보드에 복사",
+      "copy-clipboard-tooltip": "모든 앱 설정을 시스템 클립보드에 YAML 형식으로 복사합니다",
+      "download-file-btn": "파일로 다운로드",
+      "download-file-tooltip": "모든 앱 설정을 YAML 파일로 장치에 다운로드합니다",
+      "view-title": "설정 조회"
     }
   },
   "widgets": {
@@ -260,20 +260,20 @@
       "loading": "불러오는중...",
       "show-more": "Expand Details",
       "show-less": "Show Less",
-      "open-link": "Continue Reading"
+      "open-link": "계속 읽기"
     },
     "pi-hole": {
       "status-heading": "상태"
     },
     "stat-ping": {
-      "up": "Online",
-      "down": "Offline"
+      "up": "온라인",
+      "down": "오프라인"
     },
     "net-data": {
-      "cpu-chart-title": "CPU History",
-      "mem-chart-title": "Memory Usage",
+      "cpu-chart-title": "CPU 기록",
+      "mem-chart-title": "메모리 사용량",
       "mem-breakdown-title": "Memory Breakdown",
-      "load-chart-title": "System Load"
+      "load-chart-title": "시스템 부하"
     },
     "glances": {
       "disk-space-free": "여유",
