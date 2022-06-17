@@ -6,9 +6,9 @@
   },
   "search": {
     "search-label": "검색",
-    "search-placeholder": "Start typing to filter",
+    "search-placeholder": "필터 내용 입력",
     "clear-search-tooltip": "검색 초기화",
-    "enter-to-search-web": "웹으로 검색하려면 Enter 키를 누릅니다"
+    "enter-to-search-web": "웹으로 검색하려면 엔터 키를 누릅니다"
   },
   "login": {
     "title": "Dashy",
@@ -16,19 +16,19 @@
     "password-label": "암호",
     "login-button": "로그인",
     "remember-me-label": "로그인 기억",
-    "remember-me-never": "Never",
+    "remember-me-never": "하지않음",
     "remember-me-hour": "4 시간",
     "remember-me-day": "1 일",
     "remember-me-week": "1 주",
-    "remember-me-long-time": "A long time",
+    "remember-me-long-time": "장기간",
     "error-missing-username": "사용자 이름 누락",
     "error-missing-password": "비밀번호 누락",
     "error-incorrect-username": "사용자를 찾을 수 없음",
     "error-incorrect-password": "잘못된 비밀번호",
-    "success-message": "Logging in...",
-    "logout-message": "Logged Out",
+    "success-message": "로그인...",
+    "logout-message": "로그아웃",
     "already-logged-in-title": "이미 로그인되었습니다.",
-    "already-logged-in-text": "You're logged in as",
+    "already-logged-in-text": "다음 계정으로 로그인되었습니다.",
     "proceed-to-dashboard": "대시보드로 이동",
     "log-out-button": "로그아웃",
     "proceed-guest-button": "게스트로 진행"
@@ -49,8 +49,8 @@
     "reset-settings-button": "로컬 설정 초기화",
     "app-info-button": "앱 정보",
     "backup-note": "변경하기 전에 구성을 백업하는 것이 좋습니다.",
-    "reset-config-msg-l1": "This will remove all user settings from local storage, but won't effect your 'conf.yml' file.",
-    "reset-config-msg-l2": "You should first backup any changes you've made locally, if you want to use them in the future.",
+    "reset-config-msg-l1": "이 작업은 로컬 저장소에서 모든 사용자 설정이 제거되지만 'conf.yml' 파일에는 영향을 주지 않습니다.",
+    "reset-config-msg-l2": "나중에 필요 할 경우가 있다면, 로컬에서 작업한 모든 변경사항에 대해서 백업을 하는것을 추천합니다.",
     "reset-config-msg-l3": "계속 진행하시겠습니까?",
     "data-cleared-msg": "데이터가 성공적으로 삭제됨",
     "actions-label": "액션",
@@ -60,8 +60,8 @@
     "css-save-btn": "변경사항 저장",
     "css-note-label": "노트",
     "css-note-l1": "변경된 사항을 적용하려면 페이지를 다시 불러와야 합니다.",
-    "css-note-l2": "Styles overrides are only stored locally, so it is recommended to make a copy of your CSS.",
-    "css-note-l3": "To remove all custom styles, delete the contents and hit Save Changes"
+    "css-note-l2": "스타일 재정의는 로컬에서만 저장되므로 CSS의 복사본을 만드는 것이 좋습니다.",
+    "css-note-l3": "모든 커스텀 스타일을 제거하려면 내용을 지우고 변경사항 저장버튼을 눌러야 합니다"
   },
   "alternate-views": {
     "alternate-view-heading": "보기 전환",
@@ -112,8 +112,8 @@
   },
   "config-editor": {
     "save-location-label": "저장 위치",
-    "location-local-label": "적용 Locally",
-    "location-disk-label": "변경사항을 설정파일에 작성",
+    "location-local-label": "로컬에 저장",
+    "location-disk-label": "디스크에 저장",
     "save-button": "변경 저장",
     "preview-button": "변경 미리보기",
     "valid-label": "설정이 유효합니다",
@@ -131,10 +131,10 @@
     "not-admin-note": "관리자로 로그인하지 않았기 때문에 디스크에 변경된 내용을 작성할 수 없습니다"
   },
   "app-rebuild": {
-    "title": "어플리케이션 리빌드",
-    "rebuild-note-l1": "A rebuild is required for changes written to the conf.yml file to take effect.",
-    "rebuild-note-l2": "This should happen automatically, but if it hasn't, you can manually trigger it here.",
-    "rebuild-note-l3": "This is not required for modifications stored locally.",
+    "title": "어플리케이션 다시 빌드",
+    "rebuild-note-l1": "conf.yml 파일에 기록된 변경 내용을 적용하려면 다시 빌드를 해야합니다.",
+    "rebuild-note-l2": "이것은 자동으로 동작해야하지만 그렇지 않은경우 여기서 수동으로 동작 시킬 수 있습니다.",
+    "rebuild-note-l3": "로컬에 저장된 변경 사항에는 필요하지 않습니다.",
     "rebuild-button": "빌드 시작",
     "rebuilding-status-1": "빌드중...",
     "rebuilding-status-2": "몇 분 정도 걸릴 수 있습니다",
@@ -202,33 +202,33 @@
   },
   "interactive-editor": {
     "menu": {
-      "start-editing-tooltip": "Enter the Interactive 수정or",
+      "start-editing-tooltip": "수정 모드로 전환",
       "edit-site-data-subheading": "사이트 데이터 수정",
       "edit-page-info-btn": "페이지 정보 수정",
-      "edit-page-info-tooltip": "App title, description, nav links, footer text, etc.",
+      "edit-page-info-tooltip": "앱 제목, 설명, 네비게이션 링크, 푸터 텍스트, 기타항목.",
       "edit-app-config-btn": "앱 설정 수정",
       "edit-app-config-tooltip": "다른 모든 앱 설정 옵션",
       "edit-pages-btn": "페이지 수정",
-      "edit-pages-tooltip": "Add or remove additional views",
+      "edit-pages-tooltip": "별도의 뷰(View)를 추가 또는 삭제",
       "config-save-methods-subheading": "설정 저장 옵션",
-      "save-locally-btn": "Save Locally",
-      "save-locally-tooltip": "Save config locally, to browser storage. This will not affect your config file, but changes will only be saved on this device",
+      "save-locally-btn": "로컬에 저장",
+      "save-locally-tooltip": "구성을 로컬 브라우저 저장소에 저장합니다. 구성 파일에는 영향을 주지 않지으며 변경 내용은 오직 이 장치에만 저장됩니다.",
       "save-disk-btn": "디스크에 저장",
-      "save-disk-tooltip": "Save config to the conf.yml file on disk. This will backup, and then over-write your existing config",
+      "save-disk-tooltip": "디스크의 conf.yml 파일에 구성을 저장합니다. 이 작업은 기존 구성을 백업후 덮어씁니다.",
       "export-config-btn": "설정 내보내기",
-      "export-config-tooltip": "파일 또는 클립보드로 새 구성 조회 및 내보내기",
+      "export-config-tooltip": "새로운 구성 조회 및 파일 또는 클립보드로 내보냅니다.",
       "cloud-backup-btn": "클라우드에 백업",
       "cloud-backup-tooltip": "암호화된 설정 백업을 클라우드에 저장",
       "edit-raw-config-btn": "Raw 설정 수정",
       "edit-raw-config-tooltip": "설정을 JSON 편집기에서 조회 및 수정",
       "cancel-changes-btn": "수정 취소",
-      "cancel-changes-tooltip": "Reset current modifications, and exit 수정 모드. This will not affect your saved config",
+      "cancel-changes-tooltip": "현재 수정을 초기화하고 수정 모드를 나갑니다. 당신의 저장된 구성은 영향 받지 않습니다.",
       "edit-mode-name": "수정 모드",
       "edit-mode-subtitle": "수정 모드입니다",
-      "edit-mode-description": "This means you can make modifications to your config, and preview the results, but until you save, none of your changes will be preserved.",
+      "edit-mode-description": "구성을 수정하고 결과를 미리 볼 수 있지만, 설정을 저장하기 전까지는 변경 내용이 보존되지 않습니다.",
       "save-stage-btn": "저장",
       "cancel-stage-btn": "취소",
-      "save-locally-warning": "계속 진행하면 변경 내용이 당신의 브라우저에만 저장됩니다. 다른 기기에서 사용할 수 있도록 설정 사본을 내보내야 합니다. 계속하시겠습니까?"
+      "save-locally-warning": "계속 진행하면 변경 내용이 당신의 브라우저에만 저장됩니다. 다른 기기에서 사려면 설정을 내보내야 합니다. 계속하시겠습니까?"
     },
     "edit-item": {
       "missing-title-err": "항목의 제목은 필수입니다."
@@ -236,15 +236,15 @@
     "edit-section": {
       "edit-section-title": "섹션 수정",
       "add-section-title": "새 섹션 추가",
-      "edit-tooltip": "Click to 수정, or right-click for more options",
-      "remove-confirm": "Are you sure you want to remove this section? This action can be undone later."
+      "edit-tooltip": "클릭하여 편집, 오른쪽 클릭으로 더 많은 옵션보기",
+      "remove-confirm": "이 섹션을 제거하시겠습니까? 이 작업은 나중에 취소할 수 있습니다."
     },
     "edit-app-config": {
-      "warning-msg-title": "주의해주세요",
+      "warning-msg-title": "주의",
       "warning-msg-l1": "다음 옵션은 고급 앱 구성을 위한 옵션입니다.",
-      "warning-msg-l2": "필드에 대해서 명확하게 알지 못하는 경우 다음을 참조해주세요",
+      "warning-msg-l2": "필드에 대해서 명확하게 알지 못하는 경우",
       "warning-msg-docs": "문서",
-      "warning-msg-l3": "예기치 않은 결과를 피하기 위해서"
+      "warning-msg-l3": "를 참고해주세요"
     },
     "export": {
       "export-title": "설정 내보내기",
@@ -258,8 +258,8 @@
   "widgets": {
     "general": {
       "loading": "불러오는중...",
-      "show-more": "Expand Details",
-      "show-less": "Show Less",
+      "show-more": "자세히 보기",
+      "show-less": "간단히 보기",
       "open-link": "계속 읽기"
     },
     "pi-hole": {
@@ -272,7 +272,7 @@
     "net-data": {
       "cpu-chart-title": "CPU 기록",
       "mem-chart-title": "메모리 사용량",
-      "mem-breakdown-title": "Memory Breakdown",
+      "mem-breakdown-title": "메모리 브레이크다운",
       "load-chart-title": "시스템 부하"
     },
     "glances": {
@@ -282,7 +282,7 @@
       "disk-file-system": "파일 시스템",
       "disk-io-read": "읽기",
       "disk-io-write": "쓰기",
-      "system-load-desc": "Number of processes waiting in the run-queue, averaged across all cores"
+      "system-load-desc": "실행 대기열에 대기 중인 프로세스 수(모든 코어 평균)"
     },
     "system-info": {
       "uptime": "업타임"
@@ -292,17 +292,15 @@
       "departures": "출발"
     },
     "tfl-status": {
-      "good-service-all": "Good Service on all Lines",
-      "good-service-rest": "Good Service on all other Lines"
+      "good-service-all": "모든 라인이 정상입니다.",
+      "good-service-rest": "다른 모든 라인이 정상입니다."
     },
     "synology-download": {
-      "download": "Download",
-      "upload": "Upload",
-      "downloaded": "Downloaded",
-      "uploaded": "Uploaded",
-      "remaining": "Remaining",
-      "up": "Up",
-      "down": "Down"
+      "download": "다운로드",
+      "upload": "업로드",
+      "downloaded": "다운로드됨",
+      "uploaded": "업로드됨",
+      "remaining": "남음"
     }
   }
 }
