@@ -65,8 +65,8 @@ snyk-bot <snyk-bot@snyk.io> - 38 commits
 Lissy93 <gh@d0h.co> - 78 commits
 Alicia Bot <87835202+liss-bot@users.noreply.github.com> - 86 commits
 liss-bot <liss-bot@d0h.co> - 105 commits
-repo-visualizer <repo-visualizer@users.noreply.github.com> - 110 commits
-github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> - 121 commits
+repo-visualizer <repo-visualizer@users.noreply.github.com> - 111 commits
+github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> - 123 commits
 Alicia Sykes <alicia@omg.lol> - 140 commits
 Lissy93 <Lissy93@users.noreply.github.com> - 206 commits
 Alicia Sykes <gh@d0h.co> - 438 commits
