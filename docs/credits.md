@@ -168,20 +168,27 @@
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/asenov">
+            <img src="https://avatars.githubusercontent.com/u/280619?v=4" width="80;" alt="asenov"/>
+            <br />
+            <sub><b>Мирослав Асенов</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/markusdd">
             <img src="https://avatars.githubusercontent.com/u/25175069?v=4" width="80;" alt="markusdd"/>
             <br />
             <sub><b>Markus Krause</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/PlusaN">
             <img src="https://avatars.githubusercontent.com/u/61884717?v=4" width="80;" alt="PlusaN"/>
             <br />
             <sub><b>Andrey</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/rubjo">
             <img src="https://avatars.githubusercontent.com/u/42270947?v=4" width="80;" alt="rubjo"/>
@@ -208,13 +215,6 @@
             <img src="https://avatars.githubusercontent.com/u/17804308?v=4" width="80;" alt="StevKast"/>
             <br />
             <sub><b>Steven Kast</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/XertDev">
-            <img src="https://avatars.githubusercontent.com/u/16572811?v=4" width="80;" alt="XertDev"/>
-            <br />
-            <sub><b>Xert</b></sub>
         </a>
     </td></tr>
 </table>
